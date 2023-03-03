@@ -1,8 +1,10 @@
 body{font-family: 'Poppins', sans-serif;
 
     font-size: 50px;
+    text-align: justify;
 
 }
+
 
 section {
     display:flex
@@ -13,6 +15,23 @@ span{
     color: #c7430f;
 }
 
+.project4{
+    background-image:url(images/shapes/Group\ 8446.png);
+   text-align: justify;
+}
+
+.aa{text-decoration: none;
+    font-weight: bold;
+}
+
+button{
+   
+    background-image: linear-gradient(rgb(207, 102, 4), #ee4e0e);
+    padding: 20px;
+    border-radius: 50px;
+    color:rgb(255, 255, 255);
+    
+}
 .container{
     width: 50%;
     padding-right:100px ;
@@ -21,9 +40,25 @@ span{
 }
 
 
+.section-A{
+    margin-left: 250px;
+    display: flex;
+}
+
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    margin-left:100px ;
+    margin-right:100px ;
+
+
+
+}
+
+
 .container-last{
 
     font-size: 20px;
     text-align: center;
 }
-
