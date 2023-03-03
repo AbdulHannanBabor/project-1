@@ -1,28 +1,58 @@
+
 body{font-family: 'Poppins', sans-serif;
 
     font-size: 50px;
     text-align: justify;
-
 }
+
+
+
+.navbar {
+  width: 100%;
+  background-color: #8d1010;
+  
+}
+
+.navbar:hover {
+    background-color: #09b912;
+  }
+  
+
+.navbar a {
+ 
+ margin-left:100px ;
+ margin-right:100px ;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+ 
+   
+  
+}
+
 
 
 section {
-    display:flex
-    
+    display:flex   
 }
+
+
 
 span{
     color: #c7430f;
 }
 
+
 .project4{
     background-image:url(images/shapes/Group\ 8446.png);
+    background-repeat: no-repeat;
    text-align: justify;
 }
+
 
 .aa{text-decoration: none;
     font-weight: bold;
 }
+
 
 button{
    
@@ -32,6 +62,8 @@ button{
     color:rgb(255, 255, 255);
     
 }
+
+
 .container{
     width: 50%;
     padding-right:100px ;
@@ -39,10 +71,33 @@ button{
     margin: 20px;
 }
 
+.my{
+
+    text-align: center;
+    margin-left: 700px;
+
+}
+
+
+.my p {
+    font-size: medium;
+
+}
+
+
+
+
+
+
 
 .section-A{
     margin-left: 250px;
+    margin-top: 250px;
+    margin-bottom: 250px;
     display: flex;
+    box-shadow: 20px 20px 20px 20px #0ba00b;
+    border-radius: 20px;
+
 }
 
 
@@ -57,8 +112,36 @@ button{
 }
 
 
+
 .container-last{
+    background-color: rgb(71, 4, 49);
+    border-radius: 20px;
 
     font-size: 20px;
     text-align: center;
+}
+
+
+.flexc{
+
+    margin-top: 100px;
+    display: flex;
+    font-size:20px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.a{
+    height: 200px;
+    width: 400px;
+}
+
+.n{
+    box-shadow: 20px 20px 20px 20px #a00b7b;
+    border-radius: 20px;
+    margin-left:100px ;
+    margin-right:100px ;
+    border: 50px; 
 }
